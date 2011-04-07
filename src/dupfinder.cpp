@@ -32,10 +32,6 @@ inline uint32_t crc32(void const *buf, size_t bytes)
 	return result.checksum();
 }
 
-void group_files_by_size(const path &dir, vector<vector<file> > &groups)
-{
-}
-
 void find_duplicates(const path &dir, ostream &of, size_t block_size)
 {
 	vector<vector<file> > groups;
