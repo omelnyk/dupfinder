@@ -1,0 +1,15 @@
+.TH "dupfinder" (1)
+.SH NAME
+dupfinder - find duplicate files
+.SH SYNOPSIS
+.B dupfinder 
+[DIRECTORY]
+.SH DESCRIPTION
+dupfinder looks for duplicate files in a directory tree by comparing CRC32 hashes of their chunks
+.SH WEB SITE
+Visit http://omelnyk.net/projects/dupfinder/ for details
+.SH COPYRIGHT
+Copyright © 2011 Olexandr Melnyk <me@omelnyk.net>.  License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+.RS 0
+This is free software: you are free to change and redistribute it.  There is NO WARRANTY, to the extent permitted by law.
+
